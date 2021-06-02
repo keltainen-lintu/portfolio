@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+  <head>
+    <title>Ekaterina Iurchik</title>
+    <meta charset="UTF-8"> <!-- Tämän tagin avulla saadaan ä/ö-kijaimet näkymään. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Antaa selaimille ohjeet, miten sivuston eri elementtien koot on muutettava.-->
+    <meta name="description" content="Ekaterina Iurchik JAMK:n opiskelijan portfolio">
+    <meta name="keywords" content="Ekaterina Iurchik, portfolio, jamk, jct-ala"> <!-- Avainsanat hakukoneita varten. -->
+    <meta name="author" content="Ekaterina Iurchik">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/efc791b6b5.js" crossorigin="anonymous"></script> <!-- Skripti Font Awesome -ikoneille. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    <!--Anton ja Roboto -kirjasintyypit .ttf-muodossa-->
+  </head>
+  <body>
+    <nav class="menu">
+      <ul> <!-- navigointipalkki suurille näytöille-->
+        <li id="nav_logo_1">EKATERINA IURCHIK</li>
+        <li><a href="#about" target="_self">Tietoa minusta</a></li
+        ><li><a href="#portfolio" target="_self">Portfolio</a></li
+        ><li><a href="#harrastukset" target="_self">Harrastukset</a></li
+        ><li><a href="#footer" target="_self">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+    <nav class="menu_2"> <!-- navigointipalkki mobiililaitteille -->
+      <div id="nav_logo_2">EKATERINA IURCHIK</div>
+      <div class="dropdown" style="float:right;">
+        <button class="dropbtn"><i class="fas fa-bars"></i></button>
+        <div class="dropdown-content">
+          <a href="#about">Tietoa minusta</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#harrastukset">Harrastukset</a>
+          <a href="#footer">Yhteystiedot</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button> <!-- sivun alkuun -painike -->
+      <header id="about" class="header"> <!-- header, avatar ja esittelyteksti -->
+        <img src="images/ekaterina_iurchik.png" alt="Ekaterina Iurchik">
+        <p>Moi, olen Katja, 27-vuotias ICT-alasta kiinnostunut hakija Jyväskylästä. Sivulta löydät tietoa minun harrastuksista, koulutus- ja urapolusta sekä osaamisistani. Tutustutaanko paremmin?</p>
+        <i class="fas fa-angle-down"></i> <!-- nuoli alaspäin -->
+      </header>
+      <article id="portfolio" class="port"> <!-- Portfolion osat: työkokemus, koulutus ja kielitaito. -->
+        <h2>PORTFOLIO</h2>
+        <p>Olen muuttanut Venäjältä Suomeen reilut yhdeksän vuotta sitten. Näihin vuosiin on mahtunut useampi seikkailu ja koulutuspolku. Moni opiskelupaikka oli valittu harrastusten perusteella ja keskeisenä tavoitteena oli suomen kielitaidon kehittäminen. <br><br> Olen valmistunut Jyväskylän ammattikorkeakoulusta sosionomiksi ja valmistumisen jälkeen olen ehtinyt työskennellä nuorisotyönohjaajana sekä maahanmuuttajaneuvojana Monikulttuurikeskus Gloriassa. Tällä hetkellä työpaikkanani on Gradia, jossa toimin opiskeluavustajan tehtävissä. <br><br> Nyt haluaisin kuitenkin palata alkuperäisiin lukion jälkeisiin suunnitelmiini päästä opiskelemaan IT-alalle. Tavoitteena on löytää työpaikka jo opiskelun aikana. Mahdollinen opintojen suorittaminen vaihdossa myös kiinnostaisi. Tällä hetkellä olen kiinnostunut hyvinvointiteknologiasta sekä graafisesta suunnittelusta, mutta suunnan selkeyttämiseksi haluaisin kuitenkin tutustua alan perusteisiin ja trendeihin perusteellisemmin.</p>
+        <div class="portfolion_osat">
+          <section class="osa-1">
+            <h3>TYÖKOKEMUS</h3>
+            <ul class="list">
+              <li><b>Gradia</b><br>Opiskeluavustaja Oksa-koulutuksessa<br>10/08/2020 – 4/06/2021</li>
+              <li><b>Monikulttuurikeskus Gloria ry</b><br>Nuorisotyönohjaaja. Työtehtävinä mm. @glorian_nuoret -Instagram-tilin ylläpitäminen sekä visuaalisten materiaalien tuottaminen.<br>2/2019- 2/2020<br><br>Info Glorian venäjänkielinen maahanmuuttajaneuvoja.<br>9/2019 - 8/2020<br><br>Vapaaehtoistyö. Projektien, ryhmien, tapahtumien suunnittelu ja toteutus; Instagram-tilin ylläpitäminen.<br>2016 – 2018</li>
+              <li><b>Jyvässeudun 4H-yhdistys ry</b><br>Oma 4H-yritys. Neuleiden valmistus, markkinointi ja myynti.<br>2016 – 2017</li>
+            </ul>
+          </section>
+          <section class="osa-2">
+            <h3>KOULUTUS</h3>
+            <ul class="list">
+              <li><b>Helsinki Design School</b><br>Graafisen suunnittelijan tutkinto<br>8/2019 – 6/2020<br><a href="http://ekaterina.iurchik.tilda.ws" title="Tutustu graafisen suunnittelun töihini tästä" target="_blank">HDS portfolio</a></li>
+              <li><b>Jyväskylän ammattikorkeakoulu</b><br>Sosionomi, alempi korkeakoulututkinto<br>9/2015 – 10/2018</li>
+              <li><b>Jyväskylän aikuisopisto</b><br>Tekstiiliartesaani<br>9/2013 – 5/2015</li>
+              <li><b>Petroskoin taidelukio</b><br>Ylioppilas, pääaineina historia ja kirjallisuus<br>9/2008 – 5/2011</li>
+            </ul>
+          </section>
+          <section class="osa-3">
+            <h3>KIELITAITO</h3>
+            <p>Venäjä - äidinkieli<br>Suomi - sujuva<br>Englanti - hyvä<br>Espanja - alkeet</p>
+          </section>
+        </div>
+      </article>
+      <article id="harrastukset" class="har"> <!-- Harrastukset-osio. Jokaisella alalla oma laatikko. -->
+        <h2>HARRASTUKSET</h2>
+        <p>Harrastan lukemista, teen käsitöitä, urheilen ja matkustan paljon. Pidän arkielämästäni visuaalista blogia <a href="https://www.instagram.com/urban_and_cozy/" target="_blank">Instagramissa</a>. Vapaa-ajallani harrastan myös kielten opiskelua. Kehitän edelleen suomen ja englannin kielen taitoa, sosionomi-opintojeni aikana opiskelin myös espanjaa.</p>
+        <div id="har_osa_1">
+          <section class="har_1">
+            <img src="images/reading1.jpg" alt="Lukeminen">
+            <h3>LUKEMINEN</h3>
+            <p>Vapaa-ajallani luen monipuolisesti erilaista kirjallisuutta. Seuraan kirjamaailman uutisia ja yritän tutustua kiinnostamiini uutuuksiin mahdollisimman pian ilmestymisen jälkeen - useamman kielen osaaminen useasti pelastaa yli-innostunutta sielua. </p>
+          </section>
+          <section class="har_2">
+            <img src="images/travelling1.jpg" alt="Matkustaminen">
+            <h3>MATKUSTAMINEN</h3>
+            <p>Mieheni kanssa olemme matkustaneet autolla ympäri Eurooppaa. Kävimme yhteensä 24:ssa maassa. Toivomme, että tulevaisuudessa saamme luvun kasvatettua ja vierailemme myös kaukaisimpiin kohteisiin. </p>
+          </section>
+        </div>
+        <div id="har_osa_2">
+          <section class="har_3">
+            <img src="images/sport1.jpg" alt="Liikunta">
+            <h3>LIIKUNTA</h3>
+            <p>Liikun päivittäin ja erityisen paljon nautin kävelystä, joka on mielestäni hyvä paitsi fyysisen kunnon ylläpitämiseen, niin myös ajatusten selkeyttämiseen. </p>
+          </section>
+          <section class="har_4">
+            <img src="images/handmade1.jpg" alt="Luovuus">
+            <h3>LUOVUUS</h3>
+            <p>Luovuus on aina ollut suuri osa elämääni. Neulominen, valokuvaus, graafinen suunnittelu ja kollaasien teko ovat tämän hetken lempipuuhia. </p>
+          </section>
+        </div>
+      </article>
+      <footer id="footer" class="foot"> <!-- Footer, jossa kuvakkeet linkkineen. -->
+        <h2>KIINNOSTUITKO? OTA YHTEYTTÄ!</h2>
+        <a href="mailto:ekaterina.iurchik@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/urban_and_cozy/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/358445445444" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </footer>
+    </main>
+    <script> //Skripti, joka ohjaa Sivun alkuun -painiketta
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>
